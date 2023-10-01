@@ -6,7 +6,7 @@ const News = (props) => {
     const {title, description, urlToImage} = props.article;
   return (
     <>
-        <Card style={{ width: '18rem', height: '500px' }}>
+        <Card style={{ width: '100%', height: '500px' }}>
         <Card.Img variant="top" src={urlToImage} />
         <Card.Body>
             <Card.Title>{title.slice(0, 50) + '...'}</Card.Title>

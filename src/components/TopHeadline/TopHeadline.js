@@ -21,8 +21,8 @@ const TopHeadline = () => {
     
   return (
     <div>
-        <h1>Top Headline: {articles.length}</h1>
         <Container className='main'>
+        <h3 className='mb-4 bg-warning px-3 py-3 rounded'>Top Headline: {articles.length}</h3>
         <Row>
             {articles.map(article => {
                 return (
