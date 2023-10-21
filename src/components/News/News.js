@@ -9,8 +9,8 @@ const News = (props) => {
         <Card style={{ width: '100%', height: '500px' }}>
         <Card.Img variant="top" src={urlToImage} />
         <Card.Body>
-            <Card.Title>{title.slice(0, 50) + '...'}</Card.Title>
-            <Card.Text>{description.slice(0, 150) + '...'}</Card.Text>
+            <Card.Title>{title?.slice(0, 50) + '...'}</Card.Title>
+            <Card.Text>{description?.slice(0, 120) + '...'}</Card.Text>
             <Button variant="primary">Go somewhere</Button>
         </Card.Body>
         </Card>
